@@ -1,0 +1,13 @@
+simple-ecommerce-express/
+├─ public/           # Front-end (static)
+├─ scripts/          # DB init script
+├─ src/              # Back-end source
+│  ├─ routes/        # API routes
+│  ├─ middleware/    # JWT auth
+│  ├─ schema.sql     # DB schema
+│  ├─ seed.sql       # Seed products
+│  └─ db.js          # SQLite connection
+├─ data/             # SQLite file (created at runtime)
+├─ server.js         # Express app
+├─ package.json
+└─ README.md
